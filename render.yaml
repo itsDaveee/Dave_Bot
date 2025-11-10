@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: whatsaap-bot
+    branch: main
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
