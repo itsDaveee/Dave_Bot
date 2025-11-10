@@ -1,5 +1,5 @@
 {
-  "name": "Dave-bot",
+  "name": "dave-bot",
   "version": "1.0.0",
   "description": "WhatsApp Bot powered by Node.js, API Cloud and Gemini AI",
   "main": "index.js",
@@ -7,9 +7,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2", // NOUVEAU: Pour gérer les webhooks HTTP
-    "@google/genai": "^0.15.0", // NOUVEAU: Pour l'intégration Gemini
-    "axios": "^1.6.8", // Pour les appels à l'API Cloud de WhatsApp
+    "dotenv": "^16.4.5", 
+    "express": "^4.18.2", 
+    "@google/genai": "^0.15.0", 
+    "axios": "^1.6.8", 
     "pino": "^8.19.0",
     "pino-pretty": "^11.0.0",
     "sequelize": "^6.37.1",
